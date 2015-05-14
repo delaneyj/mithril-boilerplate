@@ -1,7 +1,5 @@
-let css = require('../stylus/app.styl'),
-    AppMount = require('./app.js');
+let css = require('../stylus/main.styl'),
+    appDiv = document.getElementById('app');
 
-var appDiv = document.createElement('div');
-appDiv.id = 'app';
-document.body.appendChild(appDiv);
-AppMount(appDiv);
+
+require('./app')(appDiv);
