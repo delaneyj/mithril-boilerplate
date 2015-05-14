@@ -3,6 +3,8 @@ A boilerplate for gulp+mithril+webpack+browser-sync+axis.
 
 This is mostly for personal archiving but it maybe of value to others and a good starting place for handling both frontend & backend.
 
+`npm install;gulp` will build and start both the frontend and backend.
+
 Contains the following
 
 | Package      | Description                                                                                                 |
